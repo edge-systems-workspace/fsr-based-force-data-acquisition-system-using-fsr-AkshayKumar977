@@ -13,12 +13,12 @@
 #define FSR_PIN A0
  // Define FSR analog pin (Use A0)
 
- // TODO 2:
+ int reading = 0;
  // Create variable to store sensor reading
 
 void setup() {
 
-    // TODO 3:
+    Serial.begin(9600);
     // Initialize Serial communication (9600 baud rate)
 
     // TODO 4:
