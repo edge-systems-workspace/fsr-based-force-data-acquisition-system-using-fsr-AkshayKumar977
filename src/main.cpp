@@ -10,7 +10,7 @@
  * displays structured output via Serial Monitor.
  */
 
- // TODO 1:
+#define FSR_PIN A0
  // Define FSR analog pin (Use A0)
 
  // TODO 2:
