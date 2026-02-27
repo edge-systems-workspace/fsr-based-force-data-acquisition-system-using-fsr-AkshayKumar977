@@ -21,13 +21,13 @@ void setup() {
     Serial.begin(9600);
     // Initialize Serial communication (9600 baud rate)
 
-    // TODO 4:
+    Serial.println("System Initialized: Force Measurement System");
     // Print system initialization message
 }
 
 void loop() {
 
-    // TODO 5:
+    reading = analogRead(FSR_PIN);
     // Read analog value from FSR
 
     // TODO 6:
